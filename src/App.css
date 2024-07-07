@@ -1,38 +1,40 @@
 .App {
-  text-align: center;
+    text-align: center;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.vocabulary-list {
+    margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.learn-button {
+    margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.learn-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Full viewport height */
 }
 
-.App-link {
-  color: #61dafb;
+.learn-page h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.learn-page p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.navigation-buttons button {
+    width: 100px;
 }
